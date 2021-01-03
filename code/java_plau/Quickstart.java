@@ -2,9 +2,12 @@ public class Quickstart {
     public static void main (String[] args) {
         System.out.println("Hello There World!");
 
-        byte myMinByteValue = Byte.MIN_VALUE; 
-        byte myMaxByteValue = Byte.MAX_VALUE;
-        System.out.println("Byte Minimum Value = " + myMinByteValue );
+       int myIntValue = 5/2;
+       float myFloatValue = 5f / 2f ;
+
+       System.out.println( myIntValue );
+       System.out.println( myFloatValue );
+
         
     }
 }
